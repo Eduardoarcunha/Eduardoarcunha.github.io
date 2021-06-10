@@ -1,14 +1,31 @@
+/* Html de todos os arquivos .html */
 html {
     font-size: 16px;
     height: 100%;
 }
 
+
+/* Css da back arrow usada em praticamente todas páginas  */
+.arrow{
+    position:absolute;
+    width: 2rem;
+    height: 2rem;
+    top: .5rem;
+    left: .5rem;
+}
+.img_arrow{
+    max-height:100%;
+    max-width:100%;
+}
+
+/* Body de todos os arquivos .html */
 body {
     background-color: #F5F0EB;
     font-family: 'Open Sans', sans-serif;
     height: 100%;
 }
 
+/* Header da maioria dos arquivos .html */
 .header {
     position: relative;
     display: flex;
@@ -23,6 +40,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/* Main da maioria dos arquivos .html */
 .main{
     position: relative;
     display: flex;
@@ -35,6 +53,7 @@ body {
     text-align: center;
 }
 
+/* Elementos da página tela inicial */
 .ul_telainicial{
     display: flex;
     flex-direction: column;
@@ -64,17 +83,7 @@ body {
     font-weight: bold;
 }
 
-.arrow{
-    position:absolute;
-    width: 2rem;
-    height: 2rem;
-    top: .5rem;
-    left: .5rem;
-}
-.img_arrow{
-    max-height:100%;
-    max-width:100%;
-}
+/* Elementos das páginas de buscas */
 
 
 .ul_filtros{
@@ -182,6 +191,7 @@ body {
     font-family:'Noticia text', serif;
 }
 
+/* Elementos daa páginas de resultado e compras */
 
 .resultado_img{
     width:50%;
@@ -212,8 +222,6 @@ body {
     margin: 10%;
     align-items: center;
 }
-
-
 
 
 .resultado_ul{
@@ -290,6 +298,7 @@ body {
     font-size: 1.4rem;
 }
 
+/* Elementos da página carrinho*/
 
 .img_carrinho{
     max-width: 100%;
@@ -393,6 +402,8 @@ body {
     font-weight: bold;
 }
 
+/* Elementos da página receita_instrução*/
+
 .main_receitas{
     position: relative;
     display: flex;
@@ -464,10 +475,14 @@ body {
     font-size: 1.3rem;
 }
 
+/* Elementos da pagina acompanhamento*/
+
 .h3_mapa, .p_mapa {
     font-family:'Noticia texte', serif;
     font-size: 1.3rem;
 }
+
+/* Elemento da página receitas*/
 
 .li_busca_receitas_receita{
     width: 85%;
@@ -475,6 +490,7 @@ body {
 
 }
 
+/* Elementos da página loading*/
 
 .bd_loading{
     background-color: #37AD69;
@@ -496,16 +512,22 @@ body {
     font-weight: bold;
 }
 
+/* Imagem da lupa de buscas*/
+
 .img_lupa{
     width: 2.5rem;
     height: 1.5rem;
 }
+
+/* Elemento das paginas de busca*/
 
 .ul_buscar, li{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+/* Elemento da página wip*/
 
 .wip{
     font-size: 1.5rem;
